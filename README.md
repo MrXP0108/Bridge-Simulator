@@ -15,7 +15,7 @@ hold, where $w$, $V$, $M$ are loading, shear force and bending moment respective
 By the two equations above, we are able to draw shear diagram and moment diagram by simply integrating $w$ and $V$.
 
 ## The Bridge Model
-In our case in the model, a steel "bridge" has two supports at its two ends, so
+In our case, a steel "bridge" has two supports at its two ends, so
 $$F_l+F_r=\int_{0}^{L}w(x)\text{ }dx$$
 and
 $$\int_{0}^{L}x\cdot w(x)\text{ }dx=F_r\times L$$
@@ -30,10 +30,10 @@ where $a$ and $b$ are two customized coefficients.
 
 By entering the length and the weight on the two ends of the car, the value of $a$ and $b$ in the previous section are then given.
 
-Once users enter the three imput values and hit "Start", the loading on the bridge in the w-x graph will start moving forward, so do the curves in V-x graph and M-x graph. Since the moving of car also changes the value of $F_l$ and $F_r$ as well, which are visualized by two red lines at the leftmost and rightmost part of the graph(s), the shape of curves will alter through time.
+Once the user enter three valid inputs and hit "Start", the loading on the bridge in the w-x graph will start moving forward, so do the curves in V-x graph and M-x graph. Since the moving of car changes the value of $F_l$ and $F_r$ as well, which are visualized by two red lines at the leftmost and rightmost part of the graph(s), the shape of curves also alters through time.
 
 ![Bridge Simulator](https://user-images.githubusercontent.com/100932226/171028945-f5de489b-fa0e-4bc1-b61a-8ce4c67a404e.gif)
 
-Observation of a single diagram is also available:
+Observation of one single diagram is also available:
 
 ![image](https://user-images.githubusercontent.com/100932226/171029638-76778e37-8db4-432a-bfce-9353cc96d5ba.png)
