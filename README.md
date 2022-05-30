@@ -12,7 +12,7 @@ When deriving the developed physical properties of a small segment with length $
 $$\frac{dV}{dx}=w\quad\text{and}\quad\frac{dM}{dx}=V$$
 hold, where $w$, $V$, $M$ are loading, shear force and bending moment respectively.
 
-By the two equations above, we are able to draw shear diagram and moment diagram by simply integrating $w$ and $V$.
+By the two equations above, we can draw shear diagram and moment diagram by simply integrating $w$ and $V$.
 
 ## The Bridge Model
 In our case, a steel "bridge" has two supports at its two ends, so
