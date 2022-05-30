@@ -1,14 +1,14 @@
 # Bridge-Simulator
-One of my engineering mechanics homework is to calculate how materials will react to distributed loadings, so I decided to do something silimar to that. This small C# program visualizes the shear force and bending moment of a bridge against a moving car.
+One of my engineering mechanics homework is to calculate how materials react to distributed loadings, so I decided to do something silimar to that. This small C# program visualizes the shear force and bending moment of a bridge against a moving car.
 
 ## Shear Force and Bending Moments
-When a material, like a beam, supports an object, a loading will apply on it. In order to maintain mechanical and rotational equilibrium, the material would develop internal shear force and bending moment. For example, consider a $3$-meter beam, whose rear end attaches to a wall. If an evenly distributed loading $w=5$ kN/m is applying on it, we can easily tell that the internal shear force on rear end is
+When a material, like a beam, supports an object, a loading will apply on it. In order to maintain mechanical and rotational equilibrium, the material would develop internal shear force and bending moment. For example, consider a $3$-meter beam, whose rear end attaches to a wall. If an evenly distributed loading $w=5$ kN/m is applying on it, we can easily tell that the internal shear force on the rear end is
 $$5\times 3+\text{the weight of beam}$$
 kN, and the bending moment on that point is
 $$(5\times 3+\text{the weight of beam})\times(3\div 2)$$
 kN-m, as long as we consider the whole beam as a system.
 
-And when deriving the developed physical properties of a small segment with length $\Delta x$, we see that
+When deriving the developed physical properties of a small segment with length $\Delta x$, we see that
 $$\frac{dV}{dx}=w\quad\text{and}\quad\frac{dM}{dx}=V$$
 hold, where $w$, $V$, $M$ are loading, shear force and bending moment respectively.
 
